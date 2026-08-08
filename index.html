@@ -2,23 +2,25 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title> Shivneri Multispeciality Hospital | Advanced Healthcare</title>
+    <title>Shivneri Multispeciality Hospital | Advanced Healthcare</title>
 
     <meta name="description"
         content="Shivneri Multispeciality Hospital - Trusted healthcare with experienced doctors and advanced medical facilities.">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
 
     <style>
-        /* =====================================================
-       PURPLE + WHITE HOSPITAL THEME
-    ===================================================== */
 
         * {
             margin: 0;
@@ -27,6 +29,7 @@
         }
 
         :root {
+
             --primary: #6C2BD9;
             --primary-dark: #5120A8;
 
@@ -37,7 +40,6 @@
             --text: #5F586B;
 
             --light: #FAF8FF;
-
             --white: #FFFFFF;
 
             --border: #E5DDF2;
@@ -46,60 +48,86 @@
                 0 10px 35px rgba(108, 43, 217, 0.10);
         }
 
+
         html {
             scroll-behavior: smooth;
         }
 
+
         body {
+
             font-family: "Inter", sans-serif;
+
             color: var(--dark);
+
             background: var(--white);
+
             line-height: 1.6;
         }
 
+
         a {
+
             text-decoration: none;
+
             color: inherit;
         }
 
+
         img {
+
             max-width: 100%;
+
             display: block;
         }
 
+
         button {
+
             font-family: inherit;
         }
 
-        /* =====================================================
-       TOP BAR
-    ===================================================== */
+
+        /* =========================
+           TOP BAR
+        ========================= */
 
         .topbar {
+
             background: var(--dark);
+
             color: white;
 
             padding: 9px 6%;
 
             display: flex;
+
             justify-content: space-between;
+
             align-items: center;
 
             font-size: 13px;
         }
 
+
         .topbar-right {
+
             display: flex;
+
             gap: 25px;
         }
 
-        /* =====================================================
-       NAVBAR
-    ===================================================== */
+
+        /* =========================
+           NAVBAR
+        ========================= */
 
         header {
+
             position: sticky;
+
             top: 0;
+
             z-index: 1000;
 
             background: white;
@@ -108,55 +136,84 @@
                 0 2px 15px rgba(40, 20, 70, 0.07);
         }
 
+
         .navbar {
+
             height: 76px;
 
             padding: 0 6%;
 
             display: flex;
+
             align-items: center;
+
             justify-content: space-between;
         }
 
+
         .logo {
+
             display: flex;
+
             align-items: center;
 
             gap: 10px;
 
-            font-size: 23px;
+            font-size: 20px;
+
             font-weight: 800;
 
             color: var(--primary);
         }
 
+
         .logo-icon {
+
             width: 42px;
+
             height: 42px;
 
             background: var(--primary);
+
             color: white;
 
             border-radius: 12px;
 
             display: grid;
+
             place-items: center;
 
-            font-size: 24px;
+            overflow: hidden;
 
             box-shadow:
                 0 5px 15px rgba(108, 43, 217, .22);
         }
 
+
+        .logo-icon img {
+
+            width: 100%;
+
+            height: 100%;
+
+            object-fit: contain;
+        }
+
+
         nav {
+
             display: flex;
+
             align-items: center;
 
             gap: 28px;
         }
 
+
         nav a {
+
             font-size: 14px;
+
             font-weight: 600;
 
             color: #433B50;
@@ -164,11 +221,15 @@
             transition: .2s;
         }
 
+
         nav a:hover {
+
             color: var(--primary);
         }
 
+
         .nav-btn {
+
             background: var(--primary);
 
             color: white !important;
@@ -181,11 +242,15 @@
                 0 5px 15px rgba(108, 43, 217, .18);
         }
 
+
         .nav-btn:hover {
+
             background: var(--primary-dark);
         }
 
+
         .mobile-menu {
+
             display: none;
 
             font-size: 28px;
@@ -195,11 +260,13 @@
             color: var(--primary);
         }
 
-        /* =====================================================
-       HERO
-    ===================================================== */
+
+        /* =========================
+           HERO
+        ========================= */
 
         .hero {
+
             min-height: 590px;
 
             padding: 70px 6%;
@@ -214,18 +281,25 @@
 
             background:
 
-                linear-gradient(90deg,
+                linear-gradient(
+                    90deg,
                     rgba(250, 248, 255, .98),
-                    rgba(243, 237, 255, .80)),
+                    rgba(243, 237, 255, .80)
+                ),
 
-                url("https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1800&q=80") center/cover;
+                url("https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1800&q=80")
+                center/cover;
         }
 
+
         .hero-content {
+
             max-width: 650px;
         }
 
+
         .tag {
+
             display: inline-block;
 
             color: var(--primary);
@@ -243,7 +317,9 @@
             margin-bottom: 20px;
         }
 
+
         .hero h1 {
+
             font-size: clamp(40px, 5vw, 68px);
 
             line-height: 1.05;
@@ -253,11 +329,15 @@
             margin-bottom: 22px;
         }
 
+
         .hero h1 span {
+
             color: var(--primary);
         }
 
+
         .hero p {
+
             color: var(--text);
 
             font-size: 17px;
@@ -267,7 +347,9 @@
             margin-bottom: 30px;
         }
 
+
         .hero-buttons {
+
             display: flex;
 
             gap: 14px;
@@ -275,11 +357,13 @@
             flex-wrap: wrap;
         }
 
-        /* =====================================================
-       BUTTONS
-    ===================================================== */
+
+        /* =========================
+           BUTTONS
+        ========================= */
 
         .btn {
+
             border: 0;
 
             cursor: pointer;
@@ -297,7 +381,9 @@
             transition: .2s;
         }
 
+
         .btn-primary {
+
             background: var(--primary);
 
             color: white;
@@ -306,13 +392,17 @@
                 0 6px 18px rgba(108, 43, 217, .18);
         }
 
+
         .btn-primary:hover {
+
             background: var(--primary-dark);
 
             transform: translateY(-2px);
         }
 
+
         .btn-outline {
+
             border: 1px solid var(--primary);
 
             color: var(--primary);
@@ -320,15 +410,19 @@
             background: white;
         }
 
+
         .btn-outline:hover {
+
             background: var(--secondary);
         }
 
-        /* =====================================================
-       APPOINTMENT CARD
-    ===================================================== */
+
+        /* =========================
+           APPOINTMENT CARD
+        ========================= */
 
         .appointment-card {
+
             background: white;
 
             padding: 30px;
@@ -344,13 +438,17 @@
             margin-left: auto;
         }
 
+
         .appointment-card h2 {
+
             font-size: 25px;
 
             margin-bottom: 8px;
         }
 
+
         .appointment-card p {
+
             font-size: 14px;
 
             margin-bottom: 22px;
@@ -358,11 +456,15 @@
             color: var(--text);
         }
 
+
         .form-group {
+
             margin-bottom: 15px;
         }
 
+
         .form-group label {
+
             display: block;
 
             font-size: 12px;
@@ -371,6 +473,7 @@
 
             margin-bottom: 6px;
         }
+
 
         .form-group input,
         .form-group select {
@@ -390,6 +493,7 @@
             background: white;
         }
 
+
         .form-group input:focus,
         .form-group select:focus {
 
@@ -399,15 +503,18 @@
                 0 0 0 3px rgba(108, 43, 217, .08);
         }
 
+
         .appointment-card .btn {
+
             width: 100%;
 
             margin-top: 5px;
         }
 
-        /* =====================================================
-       QUICK ACTIONS
-    ===================================================== */
+
+        /* =========================
+           QUICK ACTIONS
+        ========================= */
 
         .quick-actions {
 
@@ -419,6 +526,7 @@
 
             z-index: 5;
         }
+
 
         .quick-grid {
 
@@ -437,6 +545,7 @@
             overflow: hidden;
         }
 
+
         .quick-item {
 
             padding: 25px;
@@ -450,9 +559,12 @@
             align-items: center;
         }
 
+
         .quick-item:last-child {
+
             border-right: none;
         }
+
 
         .quick-icon {
 
@@ -473,12 +585,14 @@
             font-size: 22px;
         }
 
+
         .quick-item h4 {
 
             font-size: 14px;
 
             margin-bottom: 3px;
         }
+
 
         .quick-item p {
 
@@ -487,13 +601,16 @@
             color: var(--text);
         }
 
-        /* =====================================================
-       COMMON SECTION
-    ===================================================== */
+
+        /* =========================
+           COMMON SECTION
+        ========================= */
 
         section {
+
             padding: 90px 6%;
         }
+
 
         .section-heading {
 
@@ -503,6 +620,7 @@
 
             margin: 0 auto 45px;
         }
+
 
         .section-heading small {
 
@@ -515,6 +633,7 @@
             letter-spacing: 1.5px;
         }
 
+
         .section-heading h2 {
 
             font-size: 38px;
@@ -524,14 +643,22 @@
             margin: 10px 0 15px;
         }
 
+
         .section-heading p {
 
             color: var(--text);
         }
 
-        /* =====================================================
-       ABOUT
-    ===================================================== */
+
+        /* =========================
+           ABOUT
+        ========================= */
+
+        .about-section {
+
+            padding-top: 90px;
+        }
+
 
         .about {
 
@@ -544,16 +671,32 @@
             align-items: center;
         }
 
+
         .about-image {
 
             height: 480px;
 
             border-radius: 20px;
 
-            background:
+            overflow: hidden;
 
-                url("https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1000&q=80") center/cover;
+            background: var(--secondary);
+
+            border: 1px solid var(--border);
         }
+
+
+        .about-image img {
+
+            width: 100%;
+
+            height: 100%;
+
+            object-fit: cover;
+
+            border-radius: 20px;
+        }
+
 
         .about-content h2 {
 
@@ -564,6 +707,7 @@
             margin: 10px 0 20px;
         }
 
+
         .about-content p {
 
             color: var(--text);
@@ -571,16 +715,18 @@
             margin-bottom: 20px;
         }
 
+
         .stats {
 
             display: grid;
 
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(3, 1fr);
 
             gap: 15px;
 
             margin: 25px 0;
         }
+
 
         .stat {
 
@@ -593,6 +739,7 @@
             border-radius: 10px;
         }
 
+
         .stat strong {
 
             display: block;
@@ -602,6 +749,7 @@
             font-size: 25px;
         }
 
+
         .stat span {
 
             font-size: 12px;
@@ -609,14 +757,16 @@
             color: var(--text);
         }
 
-        /* =====================================================
-       SPECIALITIES
-    ===================================================== */
+
+        /* =========================
+           SPECIALITIES
+        ========================= */
 
         .specialities {
 
             background: var(--light);
         }
+
 
         .speciality-grid {
 
@@ -626,6 +776,7 @@
 
             gap: 18px;
         }
+
 
         .speciality {
 
@@ -640,6 +791,7 @@
             transition: .25s;
         }
 
+
         .speciality:hover {
 
             transform: translateY(-5px);
@@ -648,6 +800,7 @@
 
             border-color: var(--secondary-dark);
         }
+
 
         .speciality-icon {
 
@@ -670,12 +823,14 @@
             margin-bottom: 18px;
         }
 
+
         .speciality h3 {
 
             font-size: 17px;
 
             margin-bottom: 7px;
         }
+
 
         .speciality p {
 
@@ -684,20 +839,28 @@
             font-size: 13px;
         }
 
-        /* =====================================================
-       DOCTORS
-    ===================================================== */
+
+        /* =========================
+           DOCTORS
+        ========================= */
 
         .doctor-grid {
 
-            display: grid;
+            display: flex;
 
-            grid-template-columns: repeat(3, 1fr);
+            justify-content: center;
 
-            gap: 25px;
+            align-items: center;
+
+            width: 100%;
         }
 
+
         .doctor-card {
+
+            width: 390px;
+
+            max-width: 100%;
 
             border: 1px solid var(--border);
 
@@ -710,6 +873,7 @@
             transition: .25s;
         }
 
+
         .doctor-card:hover {
 
             transform: translateY(-5px);
@@ -717,24 +881,44 @@
             box-shadow: var(--shadow);
         }
 
+
         .doctor-image {
 
-            height: 270px;
+            width: 100%;
 
-            background-position: center;
+            height: 420px;
 
-            background-size: cover;
+            overflow: hidden;
+
+            background: #F3EDFF;
         }
+
+
+        .doctor-image img {
+
+            width: 100%;
+
+            height: 100%;
+
+            object-fit: contain;
+
+            object-position: center;
+
+            display: block;
+        }
+
 
         .doctor-info {
 
             padding: 22px;
         }
 
+
         .doctor-info h3 {
 
             font-size: 19px;
         }
+
 
         .doctor-info .speciality-name {
 
@@ -747,6 +931,7 @@
             margin: 5px 0;
         }
 
+
         .doctor-info p {
 
             color: var(--text);
@@ -756,9 +941,10 @@
             margin-bottom: 15px;
         }
 
-        /* =====================================================
-       CENTRES OF EXCELLENCE
-    ===================================================== */
+
+        /* =========================
+           CENTRES
+        ========================= */
 
         .centres {
 
@@ -767,24 +953,28 @@
             color: white;
         }
 
+
         .centres .section-heading p {
 
             color: #C7BCD7;
         }
+
 
         .centres .section-heading small {
 
             color: #B58BFF;
         }
 
+
         .centre-grid {
 
             display: grid;
 
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
 
             gap: 20px;
         }
+
 
         .centre {
 
@@ -799,6 +989,7 @@
             transition: .2s;
         }
 
+
         .centre:hover {
 
             background: rgba(108, 43, 217, .16);
@@ -806,10 +997,12 @@
             border-color: rgba(181, 139, 255, .4);
         }
 
+
         .centre h3 {
 
             margin-bottom: 8px;
         }
+
 
         .centre p {
 
@@ -818,9 +1011,10 @@
             font-size: 13px;
         }
 
-        /* =====================================================
-       PATIENT STORIES
-    ===================================================== */
+
+        /* =========================
+           PATIENT STORIES
+        ========================= */
 
         .stories {
 
@@ -830,6 +1024,7 @@
 
             gap: 25px;
         }
+
 
         .story {
 
@@ -842,6 +1037,7 @@
             border: 1px solid var(--border);
         }
 
+
         .quote {
 
             font-size: 40px;
@@ -851,6 +1047,7 @@
             line-height: 1;
         }
 
+
         .story p {
 
             color: var(--text);
@@ -858,19 +1055,22 @@
             margin: 10px 0 20px;
         }
 
+
         .patient {
 
             font-weight: 700;
         }
 
-        /* =====================================================
-       CONTACT
-    ===================================================== */
+
+        /* =========================
+           CONTACT
+        ========================= */
 
         .contact-section {
 
             background: var(--secondary);
         }
+
 
         .contact {
 
@@ -883,6 +1083,7 @@
             align-items: start;
         }
 
+
         .contact-info h2 {
 
             font-size: 38px;
@@ -890,12 +1091,14 @@
             margin-bottom: 15px;
         }
 
-        .contact-info>p {
+
+        .contact-info > p {
 
             color: var(--text);
 
             margin-bottom: 25px;
         }
+
 
         .contact-item {
 
@@ -905,6 +1108,7 @@
 
             margin-bottom: 20px;
         }
+
 
         .contact-icon {
 
@@ -926,6 +1130,7 @@
                 0 3px 12px rgba(108, 43, 217, .08);
         }
 
+
         .contact-item strong {
 
             display: block;
@@ -933,12 +1138,14 @@
             font-size: 14px;
         }
 
+
         .contact-item span {
 
             color: var(--text);
 
             font-size: 13px;
         }
+
 
         .contact-form {
 
@@ -952,6 +1159,7 @@
 
             border: 1px solid var(--border);
         }
+
 
         textarea {
 
@@ -972,6 +1180,7 @@
             outline: none;
         }
 
+
         textarea:focus {
 
             border-color: var(--primary);
@@ -980,9 +1189,10 @@
                 0 0 0 3px rgba(108, 43, 217, .08);
         }
 
-        /* =====================================================
-       FOOTER
-    ===================================================== */
+
+        /* =========================
+           FOOTER
+        ========================= */
 
         footer {
 
@@ -993,9 +1203,12 @@
             padding: 55px 6% 25px;
         }
 
+
         footer .logo {
+
             color: white;
         }
+
 
         .footer-grid {
 
@@ -1008,10 +1221,12 @@
             margin-bottom: 45px;
         }
 
+
         footer h3 {
 
             margin-bottom: 15px;
         }
+
 
         footer p,
         footer a {
@@ -1020,6 +1235,7 @@
 
             font-size: 13px;
         }
+
 
         footer a {
 
@@ -1030,10 +1246,12 @@
             transition: .2s;
         }
 
+
         footer a:hover {
 
             color: #B58BFF;
         }
+
 
         .copyright {
 
@@ -1050,9 +1268,10 @@
             justify-content: space-between;
         }
 
-        /* =====================================================
-       RESPONSIVE
-    ===================================================== */
+
+        /* =========================
+           RESPONSIVE
+        ========================= */
 
         @media (max-width: 1000px) {
 
@@ -1079,51 +1298,56 @@
                 box-shadow: var(--shadow);
             }
 
+
             nav.active {
 
                 display: flex;
             }
+
 
             .mobile-menu {
 
                 display: block;
             }
 
+
             .hero {
 
                 grid-template-columns: 1fr;
             }
+
 
             .appointment-card {
 
                 margin: 0;
             }
 
+
             .quick-grid {
 
                 grid-template-columns: repeat(2, 1fr);
             }
+
 
             .speciality-grid {
 
                 grid-template-columns: repeat(2, 1fr);
             }
 
-            .doctor-grid {
-
-                grid-template-columns: repeat(2, 1fr);
-            }
 
             .centre-grid {
 
                 grid-template-columns: repeat(2, 1fr);
             }
 
+
             .footer-grid {
 
                 grid-template-columns: repeat(2, 1fr);
             }
+
         }
+
 
         @media (max-width: 700px) {
 
@@ -1132,20 +1356,24 @@
                 display: none;
             }
 
+
             .navbar {
 
                 height: 68px;
             }
+
 
             nav {
 
                 top: 68px;
             }
 
+
             section {
 
                 padding: 65px 5%;
             }
+
 
             .hero {
 
@@ -1154,10 +1382,12 @@
                 min-height: auto;
             }
 
+
             .hero h1 {
 
                 font-size: 42px;
             }
+
 
             .quick-actions {
 
@@ -1166,10 +1396,12 @@
                 margin-top: 20px;
             }
 
+
             .quick-grid {
 
                 grid-template-columns: 1fr;
             }
+
 
             .quick-item {
 
@@ -1178,10 +1410,12 @@
                 border-bottom: 1px solid var(--border);
             }
 
+
             .quick-item:last-child {
 
                 border-bottom: none;
             }
+
 
             .about,
             .contact,
@@ -1190,17 +1424,19 @@
                 grid-template-columns: 1fr;
             }
 
+
             .about-image {
 
                 height: 330px;
             }
 
+
             .speciality-grid,
-            .doctor-grid,
             .centre-grid {
 
                 grid-template-columns: 1fr;
             }
+
 
             .section-heading h2,
             .about-content h2,
@@ -1209,10 +1445,18 @@
                 font-size: 31px;
             }
 
+
+            .stats {
+
+                grid-template-columns: 1fr;
+            }
+
+
             .footer-grid {
 
                 grid-template-columns: 1fr;
             }
+
 
             .copyright {
 
@@ -1220,15 +1464,34 @@
 
                 gap: 10px;
             }
+
+
+            .logo {
+
+                font-size: 16px;
+            }
+
+
+            .logo-icon {
+
+                width: 38px;
+
+                height: 38px;
+            }
+
         }
+
     </style>
+
 </head>
+
 
 <body>
 
-    <!-- =====================================================
-       TOP BAR
-  ===================================================== -->
+
+    <!-- =========================
+         TOP BAR
+    ========================= -->
 
     <div class="topbar">
 
@@ -1250,57 +1513,74 @@
 
     </div>
 
-    <div class="navbar">
 
-        <a href="#" class="logo">
 
-            <div class="logo-icon">
-                <img src="images/logo.png" alt="Shivneri Multispeciality Hospital Logo">
+    <!-- =========================
+         NAVBAR
+    ========================= -->
+
+    <header>
+
+        <div class="navbar">
+
+            <a href="#" class="logo">
+
+                <div class="logo-icon">
+
+                    <img src="images/logo.png"
+                        alt="Shivneri Multispeciality Hospital Logo">
+
+                </div>
+
+                <span>
+                    Shivneri Multispeciality Hospital
+                </span>
+
+            </a>
+
+
+            <nav id="nav">
+
+                <a href="#about">
+                    About Us
+                </a>
+
+                <a href="#specialities">
+                    Specialities
+                </a>
+
+                <a href="#doctors">
+                    Doctors
+                </a>
+
+                <a href="#centres">
+                    Centres of Excellence
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
+
+                <a href="#appointment" class="nav-btn">
+                    Book Appointment
+                </a>
+
+            </nav>
+
+
+            <div class="mobile-menu" onclick="toggleMenu()">
+                ☰
             </div>
 
-            <span>
-                Shivneri Multispeciality Hospital
-            </span>
-
-        </a>
-
-        <nav id="nav">
-
-            <a href="#about">
-                About Us
-            </a>
-
-            <a href="#specialities">
-                Specialities
-            </a>
-
-            <a href="#doctors">
-                Doctors
-            </a>
-
-            <a href="#centres">
-                Centres of Excellence
-            </a>
-
-            <a href="#contact">
-                Contact
-            </a>
-
-            <a href="#appointment" class="nav-btn">
-                Book Appointment
-            </a>
-
-        </nav>
-
-        <div class="mobile-menu" onclick="toggleMenu()">
-            ☰
         </div>
 
-    </div>
+    </header>
 
-    <!-- =====================================================
-       HERO
-  ===================================================== -->
+
+
+    <!-- =========================
+         HERO
+    ========================= -->
 
     <section class="hero">
 
@@ -1310,14 +1590,17 @@
                 ADVANCED MULTISPECIALITY HEALTHCARE
             </span>
 
+
             <h1>
 
                 Compassionate care.
+
                 <span>
                     Better health.
                 </span>
 
             </h1>
+
 
             <p>
 
@@ -1328,6 +1611,7 @@
                 and compassionate service.
 
             </p>
+
 
             <div class="hero-buttons">
 
@@ -1343,7 +1627,9 @@
 
         </div>
 
-        <!-- APPOINTMENT CARD -->
+
+
+        <!-- APPOINTMENT -->
 
         <div class="appointment-card" id="appointment">
 
@@ -1355,6 +1641,7 @@
                 Fill in your details and our team will contact you.
             </p>
 
+
             <form onsubmit="bookAppointment(event)">
 
                 <div class="form-group">
@@ -1363,9 +1650,12 @@
                         Full Name
                     </label>
 
-                    <input type="text" placeholder="Enter your name" required>
+                    <input type="text"
+                        placeholder="Enter your name"
+                        required>
 
                 </div>
+
 
                 <div class="form-group">
 
@@ -1373,9 +1663,12 @@
                         Phone Number
                     </label>
 
-                    <input type="tel" placeholder="+91 XXXXX XXXXX" required>
+                    <input type="tel"
+                        placeholder="+91 XXXXX XXXXX"
+                        required>
 
                 </div>
+
 
                 <div class="form-group">
 
@@ -1421,18 +1714,24 @@
 
                 </div>
 
+
                 <div class="form-group">
 
                     <label>
                         Preferred Date
                     </label>
 
-                    <input type="date" required>
+                    <input type="date"
+                        required>
 
                 </div>
 
-                <button class="btn btn-primary">
+
+                <button class="btn btn-primary"
+                    type="submit">
+
                     Request Appointment
+
                 </button>
 
             </form>
@@ -1441,13 +1740,16 @@
 
     </section>
 
-    <!-- =====================================================
-       QUICK ACTIONS
-  ===================================================== -->
+
+
+    <!-- =========================
+         QUICK ACTIONS
+    ========================= -->
 
     <div class="quick-actions">
 
         <div class="quick-grid">
+
 
             <a href="#appointment" class="quick-item">
 
@@ -1469,6 +1771,8 @@
 
             </a>
 
+
+
             <a href="#doctors" class="quick-item">
 
                 <div class="quick-icon">
@@ -1488,6 +1792,8 @@
                 </div>
 
             </a>
+
+
 
             <a href="#specialities" class="quick-item">
 
@@ -1509,6 +1815,8 @@
 
             </a>
 
+
+
             <a href="#contact" class="quick-item">
 
                 <div class="quick-icon">
@@ -1529,90 +1837,132 @@
 
             </a>
 
+
         </div>
 
     </div>
 
-    <div class="about">
 
-        <div class="about-image">
 
-            <img src="images/hospital image.jpeg" alt="Shivneri Multispeciality Hospital" style="
-        width:100%;
-        height:100%;
-        object-fit:cover;
-        border-radius:20px;
-        display:block;
-      ">
+    <!-- =========================
+         ABOUT
+    ========================= -->
 
-        </div>
+    <section class="about-section" id="about">
 
-        <div class="about-content">
+        <div class="about">
 
-            <small style="
-        color:#6C2BD9;
-        font-weight:800;
-      ">
-                ABOUT OUR HOSPITAL
-            </small>
 
-            <h2>
-                Healthcare built around you
-            </h2>
+            <div class="about-image">
 
-            <p>
-
-                At
-                <b>Shivneri Multispeciality Hospital</b>,
-                we believe healthcare should be accessible,
-                trustworthy and centred around every patient's
-                individual needs.
-
-            </p>
-
-            <p>
-
-                Our experienced medical professionals,
-                modern facilities and multidisciplinary
-                approach help us deliver comprehensive
-                healthcare under one roof.
-
-            </p>
-
-            <div class="stats">
-
-                <div class="stat">
-                    <strong>17+</strong>
-                    <span>Years of Experience</span>
-                </div>
-
-               
-
-                <div class="stat">
-                    <strong>20+</strong>
-                    <span>Medical Specialities</span>
-                </div>
-
-                <div class="stat">
-                    <strong>50K+</strong>
-                    <span>Patients Served</span>
-                </div>
+                <img src="images/hospital.jpeg"
+                    alt="Shivneri Multispeciality Hospital">
 
             </div>
 
-            <a href="#" class="btn btn-primary">
-                Know More About Us
-            </a>
+
+
+            <div class="about-content">
+
+                <small style="
+                    color:#6C2BD9;
+                    font-weight:800;
+                ">
+                    ABOUT OUR HOSPITAL
+                </small>
+
+
+                <h2>
+                    Healthcare built around you
+                </h2>
+
+
+                <p>
+
+                    At
+                    <b>Shivneri Multispeciality Hospital</b>,
+                    we believe healthcare should be accessible,
+                    trustworthy and centred around every patient's
+                    individual needs.
+
+                </p>
+
+
+                <p>
+
+                    Our experienced medical professionals,
+                    modern facilities and multidisciplinary
+                    approach help us deliver comprehensive
+                    healthcare under one roof.
+
+                </p>
+
+
+
+                <div class="stats">
+
+                    <div class="stat">
+
+                        <strong>
+                            17+
+                        </strong>
+
+                        <span>
+                            Years of Experience
+                        </span>
+
+                    </div>
+
+
+                    <div class="stat">
+
+                        <strong>
+                            20+
+                        </strong>
+
+                        <span>
+                            Medical Specialities
+                        </span>
+
+                    </div>
+
+
+                    <div class="stat">
+
+                        <strong>
+                            50K+
+                        </strong>
+
+                        <span>
+                            Patients Served
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <a href="#contact"
+                    class="btn btn-primary">
+
+                    Know More About Us
+
+                </a>
+
+            </div>
 
         </div>
 
-    </div>
+    </section>
 
-    <!-- =====================================================
-     SPECIALITIES
-===================================================== -->
 
-    <section class="specialities" id="specialities">
+
+    <!-- =========================
+         SPECIALITIES
+    ========================= -->
+
+    <section class="specialities"
+        id="specialities">
 
         <div class="section-heading">
 
@@ -1631,9 +1981,10 @@
 
         </div>
 
+
+
         <div class="speciality-grid">
 
-            <!-- Cardiology -->
 
             <div class="speciality">
 
@@ -1651,7 +2002,7 @@
 
             </div>
 
-            <!-- Orthopedics -->
+
 
             <div class="speciality">
 
@@ -1669,7 +2020,7 @@
 
             </div>
 
-            <!-- General Medicine -->
+
 
             <div class="speciality">
 
@@ -1687,7 +2038,7 @@
 
             </div>
 
-            <!-- Oncology -->
+
 
             <div class="speciality">
 
@@ -1705,7 +2056,7 @@
 
             </div>
 
-            <!-- Paediatric -->
+
 
             <div class="speciality">
 
@@ -1723,7 +2074,7 @@
 
             </div>
 
-            <!-- Nephrology -->
+
 
             <div class="speciality">
 
@@ -1741,7 +2092,7 @@
 
             </div>
 
-            <!-- Pulmonology -->
+
 
             <div class="speciality">
 
@@ -1759,7 +2110,7 @@
 
             </div>
 
-            <!-- Gynaecology -->
+
 
             <div class="speciality">
 
@@ -1777,7 +2128,7 @@
 
             </div>
 
-            <!-- Psychiatric -->
+
 
             <div class="speciality">
 
@@ -1795,54 +2146,53 @@
 
             </div>
 
+
         </div>
 
     </section>
-    <!-- DOCTOR SECTION -->
+
+
+
+    <!-- =========================
+         DOCTORS
+    ========================= -->
 
     <section id="doctors">
 
         <div class="section-heading">
 
-            <small>OUR DOCTOR</small>
+            <small>
+                OUR DOCTOR
+            </small>
 
-            <h2>Meet Our Experienced Doctor</h2>
+            <h2>
+                Meet Our Experienced Doctor
+            </h2>
 
             <p>
+
                 Dedicated healthcare delivered with experience,
                 compassion and patient-focused care.
+
             </p>
 
         </div>
 
-        <div class="doctor-grid" style="
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      width:100%;
-    ">
 
-            <div class="doctor-card" style="
-        width:390px;
-        max-width:390px;
-      ">
 
-                <div class="doctor-image" style="
-          width:100%;
-          height:420px;
-          overflow:hidden;
-          background:#F3EDFF;
-        ">
+        <div class="doctor-grid">
 
-                    <img src="images/dr-saheb-wakale.png.png" alt="Dr. Saheb Wakale" style="
-            width:100%;
-            height:100%;
-            object-fit:contain;
-            object-position:center;
-            display:block;
-          ">
+            <div class="doctor-card">
+
+
+                <div class="doctor-image">
+
+                    <img src="images/dr-saheb-wakale.png"
+                        alt="Dr. Saheb Wakale">
 
                 </div>
+
+
 
                 <div class="doctor-info">
 
@@ -1850,17 +2200,25 @@
                         Dr. Saheb Wakale
                     </h3>
 
+
                     <div class="speciality-name">
                         Senior Consultant
                     </div>
 
+
                     <p>
+
                         BHMS, CCMP<br>
                         17+ Years Experience
+
                     </p>
 
-                    <a href="#appointment" class="btn btn-outline">
+
+                    <a href="#appointment"
+                        class="btn btn-outline">
+
                         Book Consultation
+
                     </a>
 
                 </div>
@@ -1871,11 +2229,14 @@
 
     </section>
 
-    <!-- =====================================================
-       CENTRES OF EXCELLENCE
-  ===================================================== -->
 
-    <section class="centres" id="centres">
+
+    <!-- =========================
+         CENTRES
+    ========================= -->
+
+    <section class="centres"
+        id="centres">
 
         <div class="section-heading">
 
@@ -1897,63 +2258,80 @@
         </div>
 
 
-        <div class="centre">
 
-            <h3>
-                Cancer Centre
-            </h3>
+        <div class="centre-grid">
 
-            <p>
-                Integrated cancer diagnosis and treatment.
-            </p>
 
-        </div>
+            <div class="centre">
 
-        <div class="centre">
+                <h3>
+                    Cancer Centre
+                </h3>
 
-            <h3>
-                Bone & Joint Centre
-            </h3>
+                <p>
+                    Integrated cancer diagnosis and treatment.
+                </p>
 
-            <p>
-                Orthopaedic, joint replacement and
-                rehabilitation services.
-            </p>
+            </div>
 
-        </div>
 
-        <div class="centre">
 
-            <h3>
-                Women's Health
-            </h3>
+            <div class="centre">
 
-            <p>
-                Specialised healthcare services for women.
-            </p>
+                <h3>
+                    Bone & Joint Centre
+                </h3>
 
-        </div>
+                <p>
 
-        <div class="centre">
+                    Orthopaedic, joint replacement and
+                    rehabilitation services.
 
-            <h3>
-                Emergency & Trauma
-            </h3>
+                </p>
 
-            <p>
-                Round-the-clock emergency and
-                critical care services.
-            </p>
+            </div>
 
-        </div>
+
+
+            <div class="centre">
+
+                <h3>
+                    Women's Health
+                </h3>
+
+                <p>
+                    Specialised healthcare services for women.
+                </p>
+
+            </div>
+
+
+
+            <div class="centre">
+
+                <h3>
+                    Emergency & Trauma
+                </h3>
+
+                <p>
+
+                    Round-the-clock emergency and
+                    critical care services.
+
+                </p>
+
+            </div>
+
 
         </div>
 
     </section>
 
-    <!-- =====================================================
-       PATIENT STORIES
-  ===================================================== -->
+
+
+    <!-- =========================
+         PATIENT STORIES
+    ========================= -->
 
     <section>
 
@@ -1969,7 +2347,10 @@
 
         </div>
 
+
+
         <div class="stories">
+
 
             <div class="story">
 
@@ -1979,8 +2360,10 @@
 
                 <p>
 
-                    Dr. Wakale Sir provided an excellent, thorough examination. Their diagnosis was precise, and the
-                    treatment plan they created has been highly effective.
+                    Dr. Wakale Sir provided an excellent,
+                    thorough examination. Their diagnosis
+                    was precise, and the treatment plan they
+                    created has been highly effective.
 
                 </p>
 
@@ -1990,6 +2373,8 @@
 
             </div>
 
+
+
             <div class="story">
 
                 <div class="quote">
@@ -1998,8 +2383,10 @@
 
                 <p>
 
-                    After visiting multiple doctors, Dr. Saheb Wakale Sir was the only one who truly listened, ran the
-                    right tests, and finally gave me an accurate diagnosis.
+                    After visiting multiple doctors,
+                    Dr. Saheb Wakale Sir was the only one
+                    who truly listened, ran the right tests,
+                    and finally gave me an accurate diagnosis.
 
                 </p>
 
@@ -2009,30 +2396,37 @@
 
             </div>
 
+
         </div>
 
     </section>
 
-    <!-- =====================================================
-       CONTACT
-  ===================================================== -->
 
-    <section class="contact-section" id="contact">
+
+    <!-- =========================
+         CONTACT
+    ========================= -->
+
+    <section class="contact-section"
+        id="contact">
 
         <div class="contact">
+
 
             <div class="contact-info">
 
                 <small style="
-            color:#6C2BD9;
-            font-weight:800;
-          ">
+                    color:#6C2BD9;
+                    font-weight:800;
+                ">
                     GET IN TOUCH
                 </small>
+
 
                 <h2>
                     We're here when you need us
                 </h2>
+
 
                 <p>
 
@@ -2040,6 +2434,8 @@
                     hospital information or general enquiries.
 
                 </p>
+
+
 
                 <div class="contact-item">
 
@@ -2058,13 +2454,13 @@
                             Plot No. 359, Waluj Cidco Mahanagar-1,
                             M.I.D.C, Chh. Sambhajinagar
 
-                            <br>
-
                         </span>
 
                     </div>
 
                 </div>
+
+
 
                 <div class="contact-item">
 
@@ -2080,12 +2476,13 @@
 
                         <span>
                             +91 89996 33787
-
                         </span>
 
                     </div>
 
                 </div>
+
+
 
                 <div class="contact-item">
 
@@ -2107,7 +2504,10 @@
 
                 </div>
 
+
             </div>
+
+
 
             <div class="contact-form">
 
@@ -2117,7 +2517,9 @@
 
                 <br>
 
+
                 <form onsubmit="sendMessage(event)">
+
 
                     <div class="form-group">
 
@@ -2125,9 +2527,13 @@
                             Name
                         </label>
 
-                        <input type="text" placeholder="Your name" required>
+                        <input type="text"
+                            placeholder="Your name"
+                            required>
 
                     </div>
+
+
 
                     <div class="form-group">
 
@@ -2135,9 +2541,13 @@
                             Phone
                         </label>
 
-                        <input type="tel" placeholder="Your phone number" required>
+                        <input type="tel"
+                            placeholder="Your phone number"
+                            required>
 
                     </div>
+
+
 
                     <div class="form-group">
 
@@ -2145,9 +2555,12 @@
                             Email
                         </label>
 
-                        <input type="email" placeholder="Your email">
+                        <input type="email"
+                            placeholder="Your email">
 
                     </div>
+
+
 
                     <div class="form-group">
 
@@ -2155,13 +2568,21 @@
                             Message
                         </label>
 
-                        <textarea placeholder="How can we help you?" required></textarea>
+                        <textarea
+                            placeholder="How can we help you?"
+                            required></textarea>
 
                     </div>
 
-                    <button class="btn btn-primary">
+
+
+                    <button class="btn btn-primary"
+                        type="submit">
+
                         Submit Enquiry
+
                     </button>
+
 
                 </form>
 
@@ -2171,25 +2592,34 @@
 
     </section>
 
-    <!-- =====================================================
-       FOOTER
-  ===================================================== -->
+
+
+    <!-- =========================
+         FOOTER
+    ========================= -->
 
     <footer>
 
+
         <div class="footer-grid">
+
 
             <div>
 
-                <div class="logo" style="margin-bottom:15px;">
+                <div class="logo"
+                    style="margin-bottom:15px;">
 
                     <div class="logo-icon">
-                        <img src="images/logo.png" alt="Shivneri Multispeciality Hospital Logo">
+
+                        <img src="images/logo.png"
+                            alt="Shivneri Multispeciality Hospital Logo">
+
                     </div>
 
                     Shivneri Multispeciality Hospital
 
                 </div>
+
 
                 <p>
 
@@ -2200,6 +2630,8 @@
                 </p>
 
             </div>
+
+
 
             <div>
 
@@ -2225,6 +2657,8 @@
 
             </div>
 
+
+
             <div>
 
                 <h3>
@@ -2249,6 +2683,8 @@
 
             </div>
 
+
+
             <div>
 
                 <h3>
@@ -2266,17 +2702,20 @@
                 <a href="#contact">
                     Plot No. 359, Waluj Cidco Mahanagar-1,
                     M.I.D.C, Chh. Sambhajinagar
-
                 </a>
 
             </div>
 
+
         </div>
+
+
 
         <div class="copyright">
 
             <span>
-                © 2026 Shivneri Multispeciality Hospital. All Rights Reserved.
+                © 2026 Shivneri Multispeciality Hospital.
+                All Rights Reserved.
             </span>
 
             <span>
@@ -2285,13 +2724,17 @@
 
         </div>
 
+
     </footer>
 
-    <!-- =====================================================
-       JAVASCRIPT
-  ===================================================== -->
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================= -->
 
     <script>
+
 
         function toggleMenu() {
 
@@ -2302,16 +2745,19 @@
 
         }
 
+
+
         function bookAppointment(event) {
 
             event.preventDefault();
 
             alert(
-                "Appointment request submitted! " +
-                "Connect this form to your backend/email service."
+                "Appointment request submitted! Our team will contact you shortly."
             );
 
         }
+
+
 
         function sendMessage(event) {
 
@@ -2323,10 +2769,28 @@
 
         }
 
+
+        /* Close mobile menu after clicking a link */
+
+        document
+            .querySelectorAll("#nav a")
+            .forEach(function (link) {
+
+                link.addEventListener("click", function () {
+
+                    document
+                        .getElementById("nav")
+                        .classList
+                        .remove("active");
+
+                });
+
+            });
+
+
     </script>
+
 
 </body>
 
 </html>
-
->
